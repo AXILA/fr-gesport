@@ -5,6 +5,8 @@ Console.WriteLine("Fråga 1. vilket spel är bäst Valorant eller CSGO?");
 string answer;
 int points = 0;
 
+
+
 answer = Console.ReadLine();
 
 if(answer == "Valorant" || answer == "valorant")
@@ -55,7 +57,7 @@ Console.WriteLine("True");
 Console.WriteLine(points);    
 }
 
-Console.WriteLine("Nu är quizen över du fick så här många poäng av 30.");
+Console.WriteLine("Nu är quizen över du fick så här många poäng av terttio.");
 Console.WriteLine(points);
 answer = Console.ReadLine();
 
